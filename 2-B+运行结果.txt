@@ -1,0 +1,24 @@
+# started on Tue Feb 25 19:44:57 2025
+
+
+ Performance counter stats for './obj/traverse ./bfile_24_64_test.dat 64 ./qfile_24_test.dat 8':
+
+   949,789,844,765      cache-references                                                        (41.67%)
+   826,245,125,661      cache-misses                     #   86.99% of all cache refs           (50.00%)
+12,675,806,385,286      cpu_atom/L1-dcache-loads/                                               (50.00%)
+12,678,096,964,818      cpu_core/L1-dcache-loads/                                               (50.00%)
+   181,334,806,723      cpu_atom/L1-dcache-load-misses/  #    1.43% of all L1-dcache accesses   (50.00%)
+   181,351,313,662      cpu_core/L1-dcache-load-misses/  #    1.43% of all L1-dcache accesses   (50.00%)
+   181,369,904,050      cpu_core/L2_rqsts.all_demand_data_rd/                                        (33.33%)
+ 1,120,704,698,433      cpu_core/L2_rqsts.miss/                                                 (33.33%)
+   137,657,117,884      cpu_atom/LLC-loads/                                                     (33.33%)
+   137,624,199,367      cpu_core/LLC-loads/                                                     (33.33%)
+   108,702,419,420      cpu_atom/LLC-load-misses/        #   78.97% of all LL-cache accesses    (33.33%)
+   108,682,061,984      cpu_core/LLC-load-misses/        #   78.97% of all LL-cache accesses    (33.33%)
+
+    1734.992732986 seconds time elapsed
+
+   13693.399099000 seconds user
+       6.924472000 seconds sys
+
+
