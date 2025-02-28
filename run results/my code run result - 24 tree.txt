@@ -1,0 +1,5 @@
+rog@ROG-Strix-G614JV:~/Desktop/AVX2-0227-v4$ ./obj/traverse ./bfile_24_64.dat 64 ./qfile_24.dat 16
+Done inserting all data. Elapsed 120.57s
+Finished reading the query file. 4194304 requests.
+Answer_sum: 2186208962288640
+Done querying. Elapsed 335.199409s
